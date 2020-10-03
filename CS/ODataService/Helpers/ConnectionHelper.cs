@@ -1,6 +1,5 @@
 ﻿using System;
 using DevExpress.Xpo;
-using WebApplication1.Models;
 using DevExpress.Xpo.DB;
 using DevExpress.Xpo.Metadata;
 
@@ -9,12 +8,12 @@ namespace ODataService.Helpers {
     public static class ConnectionHelper
     {
         static Type[] persistentTypes = new Type[] {
-            typeof(BaseDocument),
-            typeof(Customer),
-            typeof(OrderDetail),
-            typeof(Order),
-            typeof(Contract),
-            typeof(Product)
+            //typeof(BaseDocument),
+            //typeof(Customer),
+            //typeof(OrderDetail),
+            //typeof(Order),
+            //typeof(Contract),
+            //typeof(Product)
         };
         public static Type[] GetPersistentTypes()
         {
